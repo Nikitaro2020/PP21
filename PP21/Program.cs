@@ -14,7 +14,9 @@ namespace PP21
             int A = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите B:");
             int B = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите операцию: +, -, /, *");
+            Console.WriteLine("Введите B:");
+            int C = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите операцию: +, -, /, x");
             string input = Console.ReadLine();
 
             switch (input)
@@ -25,7 +27,7 @@ namespace PP21
                 case "-":
                     Console.WriteLine($"Результат вычитания: {A - B}");
                     break;
-                case "*":
+                case "x":
                     Console.WriteLine($"Результат умножения: {A * B}");
                     break;
                 case "/":
