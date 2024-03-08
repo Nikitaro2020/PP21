@@ -11,6 +11,7 @@ namespace PP21
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
+            Console.WriteLine("Hello git");
         }
     }
 }
