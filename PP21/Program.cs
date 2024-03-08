@@ -10,8 +10,38 @@ namespace PP21
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
-            Console.WriteLine("Hello git");
+            Console.WriteLine("Введите A:");
+            int A = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите B:");
+            int B = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите операцию: +, -, /, *");
+            string input = Console.ReadLine();
+
+            switch (input)
+            {
+                case "+":
+                    Console.WriteLine($"Результат сложения: {A + B}");
+                    break;
+                case "-":
+                    Console.WriteLine($"Результат вычитания: {A - B}");
+                    break;
+                case "*":
+                    Console.WriteLine($"Результат умножения: {A * B}");
+                    break;
+                case "/":
+                    if (B != 0)
+                    {
+                        Console.WriteLine($"Результат деления: {A / (double)B}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Ошибка: деление на ноль!");
+                    }
+                    break;
+                default:
+                    Console.WriteLine("Ошибка: неверная операция!");
+                    break;
+            }
         }
     }
 }
