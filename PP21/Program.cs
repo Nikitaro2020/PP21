@@ -23,7 +23,7 @@ namespace PP21
                     Console.WriteLine($"Результат сложения: {A + B}");
                     break;
                 case "-":
-                    Console.WriteLine($"Результат вычитания: {A - B}");
+                    Console.WriteLine($"Результат вычитания: {B - A}");
                     break;
                 case "*":
                     Console.WriteLine($"Результат умножения: {A * B}");
