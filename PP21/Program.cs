@@ -31,7 +31,7 @@ namespace PP21
                 case "/":
                     if (B != 0)
                     {
-                        Console.WriteLine($"Результат деления: {A / (double)B}");
+                        Console.WriteLine($"{A / (double)B}");
                     }
                     else
                     {
