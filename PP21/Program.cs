@@ -14,13 +14,15 @@ namespace PP21
             int A = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите B:");
             int B = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите C:");
+            int C = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите операцию: +, -, /, *");
             string input = Console.ReadLine();
 
             switch (input)
             {
                 case "+":
-                    Console.WriteLine($"Результат сложения: {A + B}");
+                    Console.WriteLine($"Результат сложения: {A + B + C}");
                     break;
                 case "-":
                     Console.WriteLine($"Результат вычитания: {A - B}");
