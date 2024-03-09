@@ -16,6 +16,8 @@ namespace PP21
             int B = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите B:");
             int C = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите D:");
+            int D = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите операцию: +, -, /, x");
             string input = Console.ReadLine();
 
